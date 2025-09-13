@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.yourdomain.com/</loc>
+    <loc>https://prabinkarki789.com.np/</loc>
     <priority>1.00</priority>
   </url>
-  <url>
-    <loc>https://www.yourdomain.com/#about</loc>
+  <!-- <url>
+    <loc>https://prabinkarki789.com.np/#about</loc>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.yourdomain.com/#projects</loc>
+    <loc>https://prabinkarki789.com.np/#projects</loc>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.yourdomain.com/#skills</loc>
+    <loc>https://prabinkarki789.com.np/#skills</loc>
     <priority>0.70</priority>
   </url>
   <url>
-    <loc>https://www.yourdomain.com/#contact</loc>
+    <loc>https://prabinkarki789.com.np/#contact</loc>
     <priority>0.70</priority>
-  </url>
+  </url> -->
 </urlset>
