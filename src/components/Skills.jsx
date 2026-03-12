@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaGitAlt } from 'react-icons/fa';
-import { SiTailwindcss, SiNextdotjs, SiTypescript, SiMongodb } from 'react-icons/si';
+import { SiTailwindcss, SiNextdotjs, SiTypescript, SiMongodb, SiDjango } from 'react-icons/si';
 
 const skills = [
   { name: 'React', icon: <FaReact size={24} />, level: 90 },
+  { name: 'Django', icon: <SiDjango size={24} />, level: 80 },
   { name: 'JavaScript', icon: <FaJs size={24} />, level: 85 },
   { name: 'TypeScript', icon: <SiTypescript size={24} />, level: 75 },
   { name: 'HTML5', icon: <FaHtml5 size={24} />, level: 95 },
@@ -14,6 +15,7 @@ const skills = [
   { name: 'Node.js', icon: <FaNodeJs size={24} />, level: 70 },
   { name: 'MongoDB', icon: <SiMongodb size={24} />, level: 65 },
   { name: 'Git', icon: <FaGitAlt size={24} />, level: 80 },
+  
 ];
 
 const Skills = () => {

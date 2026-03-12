@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import React from 'react';
+import { motion } from "framer-motion";
+import React from "react";
 
 const About = () => {
   const variants = {
@@ -9,16 +9,17 @@ const About = () => {
 
   const highlights = [
     {
-      title: 'Education',
-      description: 'BSC.CSIT, Tribhuvan University',
+      title: "Education",
+      description: "BSC.CSIT, Tribhuvan University",
     },
     {
-      title: 'Experience',
-      description: '1 years of professional web development experience',
+      title: "Experience",
+      description:
+        "3 months internship at Renew Me, working on Django and Python projects, gaining hands-on experience in backend development and web application design.",
     },
     {
-      title: 'Philosophy',
-      description: 'Focus on clean, efficient code and user-centered design',
+      title: "Philosophy",
+      description: "Focus on clean, efficient code and user-centered design",
     },
   ];
 
@@ -51,24 +52,24 @@ const About = () => {
             viewport={{ once: true }}
             className="md:w-1/2 mb-10 md:mb-0 md:pr-10"
           >
-            <h3 className="text-2xl font-semibold text-dark mb-6">
-              Who am I?
-            </h3>
-            <p className="text-gray-600 mb-4">
-              I'm a passionate frontend developer with a strong focus on
-              creating intuitive and engaging user experiences. My journey in web
-              development started when I was in college, and since then, I've
-              been constantly learning and improving my skills.
-            </p>
-            <p className="text-gray-600 mb-4">
-              I specialize in building responsive, accessible, and performant web
-              applications using modern technologies like React, Next.js, and
-              Tailwind CSS.
-            </p>
-            <p className="text-gray-600">
-              When I'm not coding, you can find me hiking, reading tech blogs,
-              or experimenting with new web technologies.
-            </p>
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <h3 className="text-2xl font-semibold text-dark mb-6">Who am I?</h3>
+              <p className="text-gray-600 mb-4 text-dark">
+                I'm a passionate frontend developer with a strong focus on
+                creating intuitive and engaging user experiences. My journey in
+                web development started when I was in college, and since then,
+                I've been constantly learning and improving my skills.
+              </p>
+              <p className="text-gray-600 mb-4">
+                I specialize in building responsive, accessible, and performant
+                web applications using modern technologies like React, Next.js,
+                and Tailwind CSS.
+              </p>
+              <p className="text-gray-600">
+                When I'm not coding, you can find me hiking, reading tech blogs,
+                or experimenting with new web technologies.
+              </p>
+            </div>
           </motion.div>
 
           <motion.div

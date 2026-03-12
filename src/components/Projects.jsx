@@ -15,19 +15,20 @@ const projects = [
     image: ecommerce,
   },
   {
-    title: 'User Management App',
-    description:
-      'A productivity application for managing tasks with drag-and-drop functionality and team collaboration.',
-    technologies: ['React', 'Firebase', 'Tailwind CSS'],
-    github: 'https://github.com/prabin2058/user-management-app.git',
-    image: userImage,
-  },
+  title: 'Virtual Landing Page',
+  description:
+    'A Virtual Farming platform is a web‑based application for connecting farmers and agricultural communities with digital tools to explore, manage, and enhance farming practices online.',
+  technologies: ['React', 'Firebase', 'Tailwind CSS'],
+  live: 'https://page.thevirtualfarming.com/',
+  // github: 'https://github.com/prabin2058/user-management-app.git',
+  image: userImage,
+},
   {
-    title: 'Lead-management-system',
+    title: 'QR Branding',
     description:
-      'A Lead Management System (LMS) is a tool for tracking and managing potential customers (leads) through different sales pipeline stages.',
+      'A QR Branding Project (QBP) is a tool for creating, managing, and tracking QR codes to enhance brand visibility, engage customers, and analyze interactions across various marketing channels.',
     technologies: ['Django', 'Chart.js'], // fixed extra comma
-    github: 'https://github.com/prabin2058/lead-management-system.git',
+    
     image: lead, // from public folder
   },
 ];
@@ -101,7 +102,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="flex items-center text-dark hover:text-primary transition-colors duration-300"
                   >
-                    <FiGithub className="mr-2" /> Code
+                   
                   </a>
                   {project.live && (
                     <a
